@@ -1,5 +1,5 @@
 <?php
-namespace TYPO3\CMS\Documentation\Exception;
+namespace TYPO3\CMS\Documentation;
 
 /*
  * This file is part of the TYPO3 CMS project.
@@ -14,11 +14,11 @@ namespace TYPO3\CMS\Documentation\Exception;
  * The TYPO3 project - inspiring people to share!
  */
 
-use TYPO3\CMS\Documentation\Exception;
+use TYPO3\CMS\Core\Exception as CoreException;
 
 /**
- * An exception when something is wrong within an XML file
+ * Generic Documentation exception
  */
-class XmlParser extends Exception
+class Exception extends CoreException
 {
 }
